@@ -77,22 +77,22 @@ const Product = () => {
           </div>
 
           <div className="icons grid md:grid-cols-4 py-[60px] gap-[50px] sm:grid-cols-1">
-            <div className="sm:text-center md:text-start">
-              <img src={ic1} alt="" className="sm:flex sm:justify-center" />
+            <div className="">
+              <img src={ic1} alt="" className="" />
               <h2>First click tests</h2>
               <p>While most people enjoy casino gambling,</p>
             </div>
-            <div className="sm:text-center md:text-start">
+            <div className="">
               <img src={ic2} alt="" />
               <h2>Design surveys</h2>
               <p>Sports betting, lottery and bingo playing for the fun</p>
             </div>
-            <div className="sm:text-center md:text-start">
+            <div className="">
               <img src={ic3} alt="" />
               <h2>Preference tests</h2>
               <p>The Myspace page defines the individual.</p>
             </div>
-            <div className="sm:text-center md:text-start">
+            <div className="">
               <img src={ic4} alt="" />
               <h2>Five second tests</h2>
               <p className="w-[80%]">

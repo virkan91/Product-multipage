@@ -2,17 +2,27 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import Switcher from "../components/Darkmode/Switcher";
 
-
-
-
-
+import { AiOutlineMenu } from "react-icons/ai";
+import Button from "@mui/material/Button";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
 
 import logo from "../assets/logo.png";
 import fc from "../assets/fc.png";
 import inst from "../assets/inst.png";
 import twit from "../assets/twit.png";
+import Drawer from "../components/Drawer";
 
 const Layout = () => {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <div>
       <div className="section header bg-[#1F2E35] dark:bg-[#FFF]">
@@ -26,7 +36,7 @@ const Layout = () => {
                 </span>
               </div>
             </Link>
-            <ul className="text-[#FFF] flex items-center gap-6 dark:text-[#22343D]">
+            <ul className="text-[#FFF] flex items-center gap-6 dark:text-[#22343D] sm:hidden md:flex">
               <Link to="/">
                 <li>Product </li>
               </Link>
@@ -49,6 +59,11 @@ const Layout = () => {
                 <Switcher />
               </div>
             </ul>
+            {/* mobail-menu */}
+            <div className="lg:hidden md:hidden">
+              <Drawer />
+            </div>
+            {/* mobalmehu-end */}
           </header>
         </div>
       </div>

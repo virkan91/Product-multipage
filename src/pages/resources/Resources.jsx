@@ -42,7 +42,7 @@ const Resources = () => {
           </div>
         </div>
       </section>
-      <section className=" bg-[#1F2E35] text-[#FFF]  dark:bg-[#FFFFFF] ">
+      <section className=" bg-[#1F2E35] text-[#FFF]  dark:bg-[#FFFFFF] dark:text-[#22343D] ">
         <div className="container max-w-[1100px] mx-auto py-[10px] sm:px-[20px]">
           <div className="text-center">
             <h2 className="text-[32px] font-bold">Latest Stories</h2>
@@ -128,7 +128,7 @@ const Resources = () => {
         </div>
       </section>
 
-      <section className=" bg-[#1F2E35] text-[#FFF] py-[110px] dark:bg-[#FFFFFF] ">
+      <section className=" bg-[#1F2E35] text-[#FFF] py-[110px] dark:bg-[#FFFFFF] dark:text-[#22343D]">
         <div className="container max-w-[900px] mx-auto py-[10px] sm:px-[20px]">
           <div className=" text-center w-[28%] m-auto">
             <h2 className="text-[32px] font-bold">Contact Us</h2>
@@ -136,7 +136,7 @@ const Resources = () => {
               Need more detailed information? Get in touch with us.
             </p>
             <div className="flex  gap-4 justify-center mt-[50px]">
-              <img src={inst} alt=""/>
+              <img src={inst} alt="" />
               <img src={fc} alt="" />
               <img src={twit} alt="" />
             </div>
@@ -145,7 +145,7 @@ const Resources = () => {
             <img src={map} alt="" />
           </div>
           <form action="">
-            <h2 className="text-[22px] font-bold text-center">
+            <h2 className="text-[22px] font-bold text-center dark:text-[#FFF] mb-4">
               Send a message
             </h2>
             <input type="text" placeholder="You Name" className="block" />
