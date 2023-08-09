@@ -1,0 +1,23 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" fill="#E5E5E5"/>
+<g id="Macbook" clip-path="url(#clip0_0_1)">
+<rect width="1400" height="6811" transform="translate(-209 -6608)" fill="#1F2E35"/>
+<g id="Group 1427">
+<g id="Group 1345">
+<g id="Group 1344">
+<g id="Group 1342">
+<circle id="Ellipse 5" cx="20" cy="20" r="20" fill="#EDFFFC"/>
+<g id="facebook">
+<path id="Vector" d="M26 10H23C21.6739 10 20.4021 10.5268 19.4645 11.4645C18.5268 12.4021 18 13.6739 18 15V18H15V22H18V30H22V22H25L26 18H22V15C22 14.7348 22.1054 14.4804 22.2929 14.2929C22.4804 14.1054 22.7348 14 23 14H26V10Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1400" height="6811" fill="white" transform="translate(-209 -6608)"/>
+</clipPath>
+</defs>
+</svg>
