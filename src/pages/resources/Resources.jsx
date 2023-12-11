@@ -144,20 +144,28 @@ const Resources = () => {
           <div className="py-[70px]">
             <img src={map} alt="" />
           </div>
-          <form action="">
+          <form action="" className="">
             <h2 className="text-[22px] font-bold text-center dark:text-[#FFF] mb-4">
               Send a message
             </h2>
-            <input type="text" placeholder="You Name" className="block" />
+            <input
+              type="text"
+              placeholder="You Name"
+              className="block text-[#000]"
+            />
 
-            <input type="text" placeholder="You Name" className="block" />
+            <input
+              type="text"
+              placeholder="You Name"
+              className="block text-[#000]"
+            />
             <textarea
               name=""
               id=""
               cols="30"
               rows="5"
               placeholder="Your Message"
-              className="block"
+              className="block text-[#000]"
             ></textarea>
 
             <button className="bg-[#02897A] p-[8px_30px] rounded-[36px] mt-[40px]">

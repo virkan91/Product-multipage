@@ -113,7 +113,7 @@ const Layout = () => {
                 <h3>knowing you're always on the best energy deal.</h3>
                 <input
                   type="text"
-                  className="p-[8px] block mt-5 mb-[20px] rounded-md w-[100%]"
+                  className="p-[8px] block mt-5 mb-[20px] rounded-md w-[100%] text-[#000]"
                 />
                 <button className="bg-[#02897A] p-[5px] px-[12px] rounded-[4px] text-[#FFFFFF]">
                   Sign Up
@@ -121,7 +121,7 @@ const Layout = () => {
               </div>
             </div>
           </footer>
-          <div className="sm:mt-[40px] md:mt-auto">
+          <div className="sm:mt-[40px] md:mt-auto mb-[30px]" >
             <p className="text-[#FFF] flex justify-center mt-[10px]">
               Made With Love By Figmaland All Right Reserved
             </p>
