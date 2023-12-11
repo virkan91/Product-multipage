@@ -167,7 +167,7 @@ const Resources = () => {
               placeholder="Your Message"
               className="block text-[#000]"
             ></textarea>
-
+cxcxcx
             <button className="bg-[#02897A] p-[8px_30px] rounded-[36px] mt-[40px]">
               {" "}
               Send
