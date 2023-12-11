@@ -33,7 +33,7 @@ const Layout = () => {
                 <img src={logo} alt="" />
                 <span className="text-[#FFF] text-[30px] font-bold not-italic dark:text-[#173A56]">
                   Product
-                </span>jhjhjnbbhg
+                </span>
               </div>
             </Link>
             <ul className="text-[#FFF] flex items-center gap-6 dark:text-[#22343D] sm:hidden md:flex">
