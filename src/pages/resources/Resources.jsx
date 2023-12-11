@@ -175,6 +175,9 @@ cxcxcx
           </form>
         </div>
       </section>
+      {/* text */}
+      <span>salam</span>
+      <div>dfkdlkfl</div>
     </div>
   );
 };
